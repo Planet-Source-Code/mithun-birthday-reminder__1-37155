@@ -1,0 +1,123 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Birthday\birth
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\WINDOWS\system32\MSSTDFMT.DLL=
+D:\Program Files\Common Files\System\ado\msado21.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+d:\birthday\birthday.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Birthday\Birthday.mdb=Yes
+C:\Tp\Birthday.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+D:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+D:\WINDOWS\system32\MSDATGRD.OCX=Yes
+D:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Birthday\Birthday.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Birthday\Birthday.mdb=$(AppPath)
+C:\Tp\Birthday.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Birthday\Birthday.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Birthday\Birthday.mdb=No
+C:\Tp\Birthday.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=1.2 MB
+Title=Birthday Reminder
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Birthday Reminder
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Birthday Reminder]
+Icon1=Birthday.exe
+Title1=Birthday Reminder
+StartIn1=$(WinPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Birthday\birth
+ProjectFolder=D:\Birthday
+ServerSideCab=
+File1=D:\Birthday\birth\setup.exe
+File2=D:\Birthday\birth\Setup.Lst
+File3=D:\Birthday\birth\Birthday.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
